@@ -9,9 +9,9 @@ npm run dev
 
 # 自动化部署命令
 git add .
-git commit -m "发布部署-测试"
-git tag v0.1.0
+git commit -m "your content"
+git tag v0.1.x
 git tag
-git push origin v0.1.0
+git push origin v0.1.x
 
 ```
