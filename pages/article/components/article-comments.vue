@@ -1,7 +1,7 @@
 <!--
  * @Author: 王越
  * @Date: 2022-02-17 21:25:04
- * @LastEditTime: 2022-02-21 11:14:35
+ * @LastEditTime: 2022-02-24 13:00:40
  * @LastEditors: 王越
  * @Description:评论功能
 -->
@@ -92,7 +92,8 @@ export default {
           body: this.comment,
         },
       })
-      this.comments.push(data.comment)
+      this.comments.unshift(data.comment)
+      this.comment = ""
     },
   },
 }
