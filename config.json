@@ -1,0 +1,150 @@
+{
+    "api": {
+        "id": null,
+        "worker-id": null
+    },
+    "http": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 0,
+        "access-token": null,
+        "restricted": true
+    },
+    "autosave": true,
+    "background": false,
+    "colors": true,
+    "title": true,
+    "randomx": {
+        "init": -1,
+        "init-avx2": 0,
+        "mode": "auto",
+        "1gb-pages": false,
+        "rdmsr": true,
+        "wrmsr": true,
+        "cache_qos": false,
+        "numa": true,
+        "scratchpad_prefetch_mode": 1
+    },
+    "cpu": {
+        "enabled": true,
+        "huge-pages": true,
+        "huge-pages-jit": false,
+        "hw-aes": null,
+        "priority": null,
+        "memory-pool": true,
+        "yield": true,
+        "asm": true,
+        "argon2-impl": null,
+        "astrobwt-max-size": 550,
+        "astrobwt-avx2": false,
+        "argon2": [0],
+        "astrobwt": [0],
+        "cn": [
+            [1, 0]
+        ],
+        "cn-heavy": [
+            [1, 0]
+        ],
+        "cn-lite": [
+            [1, 0]
+        ],
+        "cn-pico": [
+            [2, 0]
+        ],
+        "cn/2": [
+            [1, 0]
+        ],
+        "cn/gpu": [
+            [1, 0]
+        ],
+        "cn/upx2": [
+            [2, 0]
+        ],
+        "ghostrider": [
+            [8, 0]
+        ],
+        "panthera": [0],
+        "rx": [0],
+        "rx/wow": [0],
+        "cn-lite/0": false,
+        "cn/0": false,
+        "rx/arq": "rx/wow",
+        "rx/keva": "rx/wow"
+    },
+    "log-file": "/root/c3pool/xmrig.log",
+    "donate-level": 0,
+    "donate-over-proxy": 1,
+    "pools": [
+        {
+            "algo": null,
+            "coin": null,
+            "url": "auto.c3pool.org:19999",
+            "user": "492cUvVMbMsKpWGoSkTSbzix9Pk2Ho6XUid9vRSFALXjfQS76gyNGjnTh6DTpPHwnBAHDztwbWUGiCfZgkbndYtAMuekPcA",
+            "pass": "10-9-87-154",
+            "rig-id": null,
+            "nicehash": false,
+            "keepalive": true,
+            "enabled": true,
+            "tls": false,
+            "tls-fingerprint": null,
+            "daemon": false,
+            "socks5": null,
+            "self-select": null,
+            "submit-to-origin": false
+        }
+    ],
+    "retries": 5,
+    "retry-pause": 5,
+    "print-time": 60,
+    "dmi": true,
+    "syslog": true,
+    "tls": {
+        "enabled": false,
+        "protocols": null,
+        "cert": null,
+        "cert_key": null,
+        "ciphers": null,
+        "ciphersuites": null,
+        "dhparam": null
+    },
+    "dns": {
+        "ipv6": false,
+        "ttl": 30
+    },
+    "user-agent": null,
+    "verbose": 0,
+    "watch": true,
+    "rebench-algo": false,
+    "bench-algo-time": 20,
+    "algo-min-time": 0,
+    "algo-perf": {
+        "cn/0": 63.1786771964462,
+        "cn/1": 63.15570790485094,
+        "cn/2": 63.15570790485094,
+        "cn/r": 63.15570790485094,
+        "cn/fast": 126.31141580970188,
+        "cn/half": 126.31141580970188,
+        "cn/xao": 63.15570790485094,
+        "cn/rto": 63.15570790485094,
+        "cn/rwz": 84.20761053980125,
+        "cn/zls": 84.20761053980125,
+        "cn/double": 31.57785395242547,
+        "cn/ccx": 126.3573543928924,
+        "cn-lite/0": 151.91986644407345,
+        "cn-lite/1": 151.91986644407345,
+        "cn-heavy/xhv": 61.61626586851068,
+        "cn-pico": 1083.916814714181,
+        "cn-pico/tlo": 1083.916814714181,
+        "cn/gpu": 10.243545521061984,
+        "rx/0": 54.853202382196216,
+        "rx/arq": 215.0998640593956,
+        "rx/graft": 53.0506721820062,
+        "rx/sfx": 54.853202382196216,
+        "panthera": 429.1497975708502,
+        "argon2/chukwav2": 747.7636779696277,
+        "astrobwt": 120.6896551724138,
+        "ghostrider": 174.58494309282656
+    },
+    "pause-on-battery": false,
+    "pause-on-active": false
+}
